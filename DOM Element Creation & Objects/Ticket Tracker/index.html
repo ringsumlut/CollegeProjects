@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      button {
+        background-color: White;
+        margin: 2px;
+      }
+      div {
+        background-color: yellow;
+        width: 200px;
+        margin: 3px;
+        font-size: 25px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Ticket Tracker</h1>
+    <div id="State"></div>
+    
+
+    <button onclick="Open()">Open</button> </br>
+    <button onclick="Close()">Close</button></br>
+    <button onclick="inProgress()">In Progress</button>
+  </br></br>
+    <div id="Issue"></div>
+    <input id="Input" placeholder="Type here..." />
+
+    <script src="js/app.js"></script>
+  </body>
+</html>
+
+<!--Create an application with 1 object in it, called "ticket". This ticket should properties for "state" and "issue". Display both the state and the issue on the DOM. Create three buttons and three functions that change the ticket object's state property to "open", "closed", and "in progress". Update the DOM display to display the state of the ticket when it is changed.-->

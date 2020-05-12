@@ -1,0 +1,14 @@
+#aqua {
+  width: 500px;
+  height: 500px;
+  background-color: aqua;
+  margin-bottom: 10px;
+}
+
+#red {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
